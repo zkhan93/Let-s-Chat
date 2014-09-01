@@ -1,0 +1,126 @@
+﻿@font-face {
+            src:url(~/Fonts/Calligraffiti.otf);
+            font-family: 'Calligraffiti';
+            
+        }
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 100%;
+            margin:auto;
+            margin-bottom:20px;
+        }
+       
+        .chat_head {
+             padding:5px;
+             width: 80%;
+             background-color:#808080;
+             border-radius:40px;
+             border:2px dashed #dbdbdb;
+             margin:auto;
+        }
+        .user_image_icon {
+
+        }
+                
+        
+        .font2 {
+            font-size:15px;
+            color:white;
+        }
+        .div_scroll {
+            
+            word-wrap:break-word;
+        }
+        .div_scroll::-webkit-scrollbar {
+            width:7px;
+            
+        }
+        .div_scroll::-webkit-scrollbar-track {
+            color:#808080;
+            -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+            border-radius:5px;
+        }
+        .div_scroll::-webkit-scrollbar-thumb {
+            border-radius:10px;
+            -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.5); 
+        }
+        .div_label {
+            margin:10px;
+            padding:10px;
+            text-align:center;
+            border-radius:3px;
+            background-color:rgba(0,0,0,0.3);
+        }
+        .div_head {
+            text-align:center;
+        }
+        .state {
+            padding:10px;
+        }
+        .tr {
+            
+        }
+        
+        .td1_msg {
+            width:40px;
+            height:40px;
+        }
+        .td2_msg {
+            max-width:20px;
+            word-wrap:break-word;
+            
+        }
+        /*message*/
+        .div_img {
+            margin:5px;
+            text-align:center;
+            border:2px solid black;
+            border-radius:3px;
+        }
+        .div_txt {
+            margin:5px;
+            padding:15px;
+            background-color:#dbdbdb;
+            border-radius:3px;
+            
+        }
+        .msg_img {
+           
+            width:40px;
+            height:40px;
+        }
+        
+        
+
+        .td1_file {
+            width:40px;
+           
+        }
+        .td2_file {
+           max-width:20px;
+            
+        }
+        /*file*/
+        .file_img {
+            
+            width:40px;
+            height:40px;
+        }
+        
+        .link_file {
+            
+            font-weight:bold;
+            color:black;
+           
+        }
+        a:hover {
+            color:white;
+        }
+        .login_tr {
+             min-height:200px;
+        }
+        .login_td {
+            min-height:200px;
+        }

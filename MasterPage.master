@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="Stylesheet" href="./Stylesheet/mastercss.css" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="header">
+        <p>
+            <img align="left" id="chat_logo" alt="Chat logo" width="120px" height="120px" src="./images/System/chat_logo.png"/>
+             <img align="middle" id="chat_name" alt="Crazy Chat" src="./images/System/Chat_Name_big.png"/><br/>
+            <img align="right" id="chat_line" alt="Chatting made easy" src="./images/System/chat_line.png"/>
+            <br/>
+        </p>
+    </div>
+    <div id="body">
+         
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+    </div>
+    
+    <div id="footer">
+        <center>
+            copyright &copy; Let's Chat Team
+        </center>
+    </div>
+</body>
+</html>
